@@ -1,0 +1,55 @@
+% DATA MANAGEMENT AND SHARING PLAN -- NIH. Limit: 2 pages.
+% Follows the six-element NIH DMS format (NOT-OD-21-013).
+\documentclass[11pt]{article}
+\usepackage{definitions}
+\usepackage{amssymb}
+
+% Checkbox glyphs (amssymb): \boxon = checked, \boxoff = unchecked
+\newcommand{\boxon}{\ensuremath{\boxtimes}}
+\newcommand{\boxoff}{\ensuremath{\square}}
+
+\begin{document}
+
+\textbf{DATA MANAGEMENT AND SHARING PLAN}
+
+\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=1.5em, itemsep=3pt, topsep=2pt, parsep=1pt]
+
+    \item Will there be maximum appropriate sharing of scientific data underlying peer-reviewed publications and other findings resulting from the work supported by this award (including preprints, reports, and other research products)? \\
+        Yes~\boxon\quad No~\boxoff
+
+    \item Will the scientific data underlying peer-reviewed publications be shared by the time of publication, or for other findings, by the end of the period of performance, which includes no-cost extensions? \\
+        Yes~\boxon\quad No~\boxoff
+
+    \item Will shared scientific data be made available for at least as long as required by applicable data repository policies and/or journal policies? \\
+        Yes~\boxon\quad No~\boxoff
+
+    \item If you answered ``no'' to elements 1, 2, or 3, or if you anticipate that sharing will be limited in some other way, please describe these limitations and the ethical, legal, or technical factors that make them necessary. \\
+        {}[State any limitation and the contractual, ethical, or technical reason for it, or write that no limitations apply.]
+
+    \item If scientific data derived from human research participants will be shared, will privacy, rights, and confidentiality of participants be protected as outlined in NOT-OD-22-213? \\
+        Yes~\boxon\quad No~\boxoff\quad Not Applicable~\boxoff
+
+    \item In the table below, the key types of scientific data anticipated to be generated and the repositories where they will be shared:
+
+        \smallskip
+        \begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+            \hline
+            Expected Data Type & Established Repository or Example \\ \hline
+            [Canine sonomicrometry, flow, and pressure recordings] & [Repository] \\ \hline
+            [Perfusion-machine recordings from donor hearts] & [Repository] \\ \hline
+            [De-identified patient echocardiography and MRI] & [Repository] \\ \hline
+            [Perfused-wall models and their parameters] & [Vascular Model Repository] \\ \hline
+            [Analysis code and computational tools] & GitHub (SimVascular project and research-group repositories) \\ \hline
+        \end{tabularx}
+
+    \item For studies subject to the NIH Genomic Data Sharing Policy (GDS) (e.g., using NIH funds to generate large-scale human genomic data):
+        \begin{enumerate}[label=\textbf{\alph*.}, leftmargin=1.5em, itemsep=3pt, topsep=2pt, parsep=0pt]
+            \item Will you share all large-scale human genomic and associated data in a NIH-designated repository according to the accelerated timelines expected in the GDS Policy? \\
+                Yes~\boxoff\quad No~\boxoff\quad Not Applicable~\boxon
+            \item Do you anticipate that when sharing you will be able to meet the expectations of the Institutional Certification in the GDS Policy? \\
+                Yes~\boxoff\quad No~\boxoff\quad Not Applicable~\boxon
+        \end{enumerate}
+
+\end{enumerate}
+
+\end{document}
